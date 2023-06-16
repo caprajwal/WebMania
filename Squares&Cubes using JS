@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>
+            SQUARES & CUBES
+        </title>
+        <h1>
+            Hello...!
+        </h1>
+        <h2>SQUARES & CUBES</h2>
+    </head>
+    <body>
+        <table align="center" border="1">
+            <tr>
+                <td>number</td>
+                <td>square</td>
+                <td>cube</td>
+            </tr>
+            <script type="text/javascript">
+                for(var n=0;n<=10;n++)
+                {
+                    document.write("<tr><td>"+n+"</td><td>"+n*n+"</td><td>"+n*n*n+"</td></tr>");
+                }
+            </script>
+            <style>
+                table{background-color: darksalmon;}
+                table{font-size: x-large;font-style: italic;font-weight: 100;border-color: blueviolet;color: black;}
+                title{font-style: bold;color:crimson}
+            </style>
+        </table>
+    </body>
+</html>
