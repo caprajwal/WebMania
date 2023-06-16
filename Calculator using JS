@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>calculator using javascript</title>
+</head>
+
+<body style="background-color: antiquewhite;">
+    <h1 style ="text-align:center;color:brown;">simple calculator using javascript</h1><table></table>
+<tr>
+    <th>enter 1st number:</th>
+    <td>
+         <input type="number" name="num1"id="num1"/>
+    </td>
+</tr>
+    <tr>
+    <th> enter 2nd number:</th>
+<td>
+    <input type="number"name="num1"id="num1"/>
+</td>
+</tr>
+<tr>
+    <th colspan="2">
+        <input type="button"value="+"onclick="performop(this.value);"/>\
+        <input type="button"value="-"onclick="performop(this.value);"/>
+        <input type="button"value="*"onclick="performop(this.value);"/>
+        <input type="button"value="/"onclick="performop(this.value);"/></th>
+      </th>  
+    </tr>
+    <th>result</th>
+    <td><input type="number" name="res" id="res" readonly /></td>
+</tr>
+    </table>
+    <script>
+        function performop(op)
+        var n1= parselnt(document.getElementById("num1").value);
+        var n2= parselnt(document.getElementById("num2").value);
+        if(op=="+")
+        {
+            result=n1+n2;
+        }
+       else if(op=="-")
+        {
+            result=n1-n2;
+        }
+       else if(op=="*")
+        {
+            result=n1*n2;
+        }
+    else(op=="/")
+        {
+            result=n1/n2;
+        }
+    </script>
+</body>
+</html>
